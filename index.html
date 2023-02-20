@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="icon" type="imagen/x-icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135731.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!-- Way to add an external CSS sheet -->
+    <link rel="stylesheet" type="texto/css" href="css/style.css" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Curriculum Vitae">
+    <meta property="og:description" content="Información y datos personales de una mujer.">
+    <meta property="og:image" content="https://randomuser.me/api/portraits/women/68.jpg">
+    <meta property="og:image:alt" content="Jennie Nichols/mujer rubia">
+    <meta property="og:url"content="https://www.poner url donde esta subida la pagina">
+    <meta property="og:site_name" content="nombre del sitio de la pagina">
+    <meta property="og:type" content="C.V.">
+
+    <style>
+
+        body {
+            max-width: 100;
+            height: auto;
+        }
+
+        body {
+              background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/Imagen-de-fondo-html.jpg");
+        }
+
+        h3 {
+            background-color:rgb(140, 187, 235);
+            border: 20px solid rgb(32, 67, 102);
+        }
+
+
+        * {
+           box-sizing: border-box;
+        }
+
+        body {
+              font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+             float:left
+        }
+
+        h1 {
+            font-family: 'Fredoka One', cursive;
+            font-weight: bold;
+            color: black;
+        }
+
+        h2 {
+            font-family: 'Fredoka One', cursive;
+            font-weight: bold;
+            color: black;
+        }
+
+        p,
+        ul,
+        pre {
+            font-family: 'Fredoka One', cursive;
+            color: black;
+            width: 600px;
+        }
+
+        img {
+             float:left
+        }
+
+    /* Style the header */
+        header {
+                background-color: #45a3c0;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: black;
+        }
+
+
+    /* Clear floats after the columns */
+        section::after {
+                        content: "";
+                        display: table;
+                        clear: both;
+        }
+
+    /* Style the footer */
+        footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+        }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+    nav, article {
+    width: 100%;
+    height: auto;
+    }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <h2 id="demo">CURRICULUM VITAE</h2>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "C.V."'>CLICK AQUI</button>
+
+    <script src="https://kit.fontawesome.com/4448d9b335.js" crossorigin="anonymous"></script>
+
+<!-- Link: Way to add an external JavaScript sheet --> 
+    <script src="js/function.js"></script>
+
+<header>
+
+    <div>
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="foto de mujer" height="250px" width="250px" />
+    </div>
+
+    <div>
+        <h1>JENNIE NICHOLS</h1>
+        <h2>ARQUITECTA</h2>
+    </div>
+
+</header>
+
+<nav>
+
+  <pre>
+
+  VER DATOS PERSONALES
+
+        <a href="#Información Personal">Información Personal</a>
+
+        <a href="#Experiencia Laboral">Experiencia Laboral</a>
+
+        <a href="#Habilidades">Habilidades</a>
+
+  </pre>  
+
+</nav>
+
+<button id="boton1" type="button" class="btn tw" onclick="document.getElementById('oculto1').style.display = 'block';document.getElementById('boton1').style.display = 'none';document.getElementById('boton2').style.display = 'block';" style="display: block;">MOSTRAR</button>
+<div id="oculto1" style="display: none;">
+<section>
+<aside>
+        
+    <a name="Información Personal"/>
+    <h3><span class="fa-solid fa-circle-info fa-spin"></span>Información Personal</h3>
+
+    <p>APELLIDO: NICHOLS</p>
+    <p>NOMBRE: JENNIE</p>
+    <p>EDAD: 30 AÑOS</p>
+    <p>FECHA DE NACIMIENTO: 08 DE MARZO DE 1992</p>
+    <p>PAIS: ESTADOS UNIDOS</p>
+    <p>ESTADO: TEXAS</p>
+    <p>CIUDAD: CANTON</p>
+    <p>DIRECCIÓN: 9960 w Dallas St</p>
+    <p>EMAIL: jennie.nichols@example.com</p>
+    <p>TELEFONO: (246) 377-1256</p>
+
+    <hr>
+
+    <a name="Experiencia Laboral"/>
+    <h3><span class="fa-sharp fa-solid fa-briefcase fa-spin"></span>Experiencia Laboral</h3>
+
+    <p>ARQUITECTA</p>
+    <p>Estudio de arquitectura 2019 - 2022</p>
+    <ul>
+        <li>Maquetización de planos para edificios</li>
+        <li>Realización de renders</li>
+        <li>Realización de presupuestos de obras</li>
+    </ul>
+    <p>ARQUITECTA</p>
+    <p>Estudio de arquitectura 2015 - 2019</p>
+    <ul>
+        <li>Maquetización de planos para edificios residenciales</li>
+        <li>Realización de renders</li>
+        <li>Realización de presupuestos de obras</li>
+    </ul>
+    <p>ASISTENTE</p>
+    <p>Estudio de Arquitectura 2014 - 2015</p>
+    <ul>
+        <li>Trato con clientes</li>
+        <li>Organización de archivos</li>
+        <li>Diseño de renders</li>
+    </ul>
+    
+    <hr>
+
+    <a name="Habilidades"/>
+    <h3><span class="fa-solid fa-cog fa-spin"></span>Habilidades</h3>
+
+    <ul>
+        <li>Diseño de renders</li>
+        <li>Modelado en 3D</li>
+        <li>Diseño de planos</li>
+        <li>Presupuestación</li>
+    </ul>
+
+</aside>
+</section>
+</div>
+<button id="boton2" type="button" class="btn tw" onclick="document.getElementById('oculto1').style.display = 'none';document.getElementById('boton2').style.display = 'none';document.getElementById('boton1').style.display = 'block';" style="display: none;">OCULTAR</button>
+
+    <hr>
+
+<footer>
+
+    <pre>
+
+            correo@electronico.com                                                                               678 910 123                                                                          www.paginasweb.com
+                                                                                                            
+                                                                                                                                CIUDAD (PROVINCIA)                                                                 <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-twitter"></i>
+    
+    </pre>
+
+</footer>
+</body>
+</html>
+

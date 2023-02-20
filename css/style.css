@@ -1,0 +1,22 @@
+:root {
+}
+
+
+
+h1 {
+     font-weight: bold;
+     color: black; 
+}
+
+* {
+     color: black;
+     width: 300px;
+ }
+
+h3 {
+     border: 1px solido black;
+ }
+
+
+
+
